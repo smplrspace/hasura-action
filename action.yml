@@ -1,5 +1,5 @@
 name: "GitHub Action for Hasura"
-author: "Thibaut Tiberghien"
+author: "Smplrspace"
 description: "Wraps the Hasura CLI to enable common commands."
 branding:
   icon: "terminal"

@@ -34,7 +34,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
       - name: Apply hasura migrations
-        uses: tibotiber/hasura-action@master # use a tagged version instead of master
+        uses: smplrspace/hasura-action@v3
         with:
           args: migrate apply --all-databases
         env:

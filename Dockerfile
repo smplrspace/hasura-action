@@ -1,7 +1,7 @@
 FROM frolvlad/alpine-glibc:alpine-3.15_glibc-2.33
 
-LABEL repository="https://github.com/tibotiber/hasura-action"
-LABEL homepage="https://github.com/tibotiber/hasura-action"
+LABEL repository="https://github.com/smplrspace/hasura-action"
+LABEL homepage="https://github.com/smplrspace/hasura-action"
 LABEL maintainer="Thibaut Tiberghien <thibaut@smplrspace.com>"
 
 LABEL com.github.actions.name="GitHub Action for Hasura"
