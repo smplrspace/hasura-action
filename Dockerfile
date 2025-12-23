@@ -10,7 +10,7 @@ LABEL com.github.actions.icon="terminal"
 LABEL com.github.actions.color="gray-dark"
 
 RUN apk add --no-cache curl bash libstdc++ jq
-RUN curl -L https://github.com/hasura/graphql-engine/raw/stable/cli/get.sh | bash
+RUN curl -L https://raw.githubusercontent.com/hasura/graphql-engine/stable/cli/get.sh | bash
 
 COPY LICENSE README.md /
 COPY "entrypoint.sh" "/entrypoint.sh"
